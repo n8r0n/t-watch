@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="13771" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="13756"/>
+    </dependencies>
+    <scenes>
+        <!--Home Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="HomeController" customModule="TeeWatch_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <imageView width="312" height="155" alignment="left" image="mrT" contentMode="scaleAspectFit" id="gvD-WQ-7kx" userLabel="Logo"/>
+                        <inlineMovie width="1" height="100" alignment="left" id="B0k-qf-xJw"/>
+                    </items>
+                    <connections>
+                        <outlet property="imageView" destination="gvD-WQ-7kx" id="HuX-l3-tni"/>
+                        <outlet property="moviePlayer" destination="B0k-qf-xJw" id="C9o-RI-Ohq"/>
+                        <segue destination="pay-te-4U6" kind="relationship" relationship="nextPage" id="bmZ-ep-bRF"/>
+                    </connections>
+                </controller>
+            </objects>
+        </scene>
+        <!--Monitor Controller-->
+        <scene sceneID="BDE-jf-Vfm">
+            <objects>
+                <controller id="pay-te-4U6" customClass="MonitorController" customModule="TeeWatch_WatchKit_Extension">
+                    <items>
+                        <button width="1" alignment="left" verticalAlignment="bottom" title="Measure T" id="Oc6-8i-t4y" userLabel="Button">
+                            <connections>
+                                <action selector="onButtonTapped" destination="pay-te-4U6" id="T6q-qa-1I3"/>
+                            </connections>
+                        </button>
+                        <imageView width="1" alignment="center" alpha="0.0" image="frame_0" contentMode="scaleAspectFit" id="dTv-ES-552" userLabel="Image View"/>
+                    </items>
+                    <connections>
+                        <outlet property="button" destination="Oc6-8i-t4y" id="iEs-Oa-QHH"/>
+                        <outlet property="imageView" destination="dTv-ES-552" id="NoZ-hJ-BGb"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="322" y="282"/>
+        </scene>
+    </scenes>
+</document>

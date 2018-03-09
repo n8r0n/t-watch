@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="13771" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch42" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="13756"/>
+    </dependencies>
+    <scenes>
+        <!--Home Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="HomeController">
+                    <items>
+                        <imageView width="312" height="155" alignment="left" image="mrT" contentMode="scaleAspectFit" id="ETh-nV-wo3" userLabel="Logo"/>
+                        <inlineMovie width="1" height="100" alignment="left" id="FQ3-bW-T48"/>
+                    </items>
+                    <connections>
+                        <outlet property="imageView" destination="ETh-nV-wo3" id="KtL-Bk-2Tv"/>
+                        <outlet property="moviePlayer" destination="FQ3-bW-T48" id="ryO-dt-HFV"/>
+                        <segue destination="7zW-T0-QI8" kind="relationship" relationship="nextPage" id="xAL-KE-IlC"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="32.256410256410255" y="212.71794871794873"/>
+        </scene>
+        <!--Monitor Controller-->
+        <scene sceneID="M0f-Iy-AJ3">
+            <objects>
+                <controller id="7zW-T0-QI8" customClass="MonitorController">
+                    <items>
+                        <button width="1" alignment="left" verticalAlignment="bottom" title="Measure T" id="LOT-U1-i1Z">
+                            <connections>
+                                <action selector="onButtonTapped" destination="7zW-T0-QI8" id="bPR-ug-KdP"/>
+                            </connections>
+                        </button>
+                        <imageView width="1" alignment="center" alpha="0.0" image="frame_0" contentMode="scaleAspectFit" id="CIP-Ln-Nsr"/>
+                    </items>
+                    <connections>
+                        <outlet property="button" destination="LOT-U1-i1Z" id="DDP-Vg-pyc"/>
+                        <outlet property="imageView" destination="CIP-Ln-Nsr" id="Gq3-Ls-ItO"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="328" y="213"/>
+        </scene>
+    </scenes>
+</document>

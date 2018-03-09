@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		97D91A31204D2C4B00A24AC1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D91A30204D2C4B00A24AC1 /* AppDelegate.m */; };
+		97D91A34204D2C4B00A24AC1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D91A33204D2C4B00A24AC1 /* ViewController.m */; };
+		97D91A37204D2C4B00A24AC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97D91A35204D2C4B00A24AC1 /* Main.storyboard */; };
+		97D91A39204D2C4B00A24AC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97D91A38204D2C4B00A24AC1 /* Assets.xcassets */; };
+		97D91A3C204D2C4B00A24AC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97D91A3A204D2C4B00A24AC1 /* LaunchScreen.storyboard */; };
+		97D91A3F204D2C4B00A24AC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D91A3E204D2C4B00A24AC1 /* main.m */; };
+		97D91A43204D2C4B00A24AC1 /* TeeWatch WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 97D91A42204D2C4B00A24AC1 /* TeeWatch WatchKit App.app */; };
+		97D91A49204D2C4B00A24AC1 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97D91A47204D2C4B00A24AC1 /* Interface.storyboard */; };
+		97D91A52204D2C4B00A24AC1 /* TeeWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 97D91A51204D2C4B00A24AC1 /* TeeWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		97D91A58204D2C4B00A24AC1 /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D91A57204D2C4B00A24AC1 /* HomeController.m */; };
+		97D91A5B204D2C4B00A24AC1 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D91A5A204D2C4B00A24AC1 /* ExtensionDelegate.m */; };
+		97D91A5D204D2C4B00A24AC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97D91A5C204D2C4B00A24AC1 /* Assets.xcassets */; };
+		97D91A6E204D2D0900A24AC1 /* MonitorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D91A6D204D2D0900A24AC1 /* MonitorController.m */; };
+		97D91AD1204D42BC00A24AC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97D91AD0204D42BC00A24AC1 /* Assets.xcassets */; };
+		97D91AD4204D49F400A24AC1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97D91AD3204D49F400A24AC1 /* AVFoundation.framework */; };
+		97D91AD6204D4A0200A24AC1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97D91AD5204D4A0200A24AC1 /* AVFoundation.framework */; };
+		97D91AD8204D4C5600A24AC1 /* pity.caf in Resources */ = {isa = PBXBuildFile; fileRef = 97D91AD7204D4C5600A24AC1 /* pity.caf */; };
+		97D91ADA204D4F2600A24AC1 /* pity.caf in Resources */ = {isa = PBXBuildFile; fileRef = 97D91AD9204D4F2600A24AC1 /* pity.caf */; };
+		97D91ADC204D5BE200A24AC1 /* trombone.caf in Resources */ = {isa = PBXBuildFile; fileRef = 97D91ADB204D5BE200A24AC1 /* trombone.caf */; };
+		97D91ADE204D5BE900A24AC1 /* trombone.caf in Resources */ = {isa = PBXBuildFile; fileRef = 97D91ADD204D5BE900A24AC1 /* trombone.caf */; };
+		97D91AE1204D5C1E00A24AC1 /* TeeBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D91AE0204D5C1E00A24AC1 /* TeeBaseController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		97D91A44204D2C4B00A24AC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97D91A24204D2C4A00A24AC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97D91A41204D2C4B00A24AC1;
+			remoteInfo = "TeeWatch WatchKit App";
+		};
+		97D91A53204D2C4B00A24AC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97D91A24204D2C4A00A24AC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97D91A50204D2C4B00A24AC1;
+			remoteInfo = "TeeWatch WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		97D91A64204D2C4B00A24AC1 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				97D91A52204D2C4B00A24AC1 /* TeeWatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97D91A68204D2C4B00A24AC1 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				97D91A43204D2C4B00A24AC1 /* TeeWatch WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		97D91A2C204D2C4B00A24AC1 /* TeeWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeeWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97D91A2F204D2C4B00A24AC1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		97D91A30204D2C4B00A24AC1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		97D91A32204D2C4B00A24AC1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		97D91A33204D2C4B00A24AC1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		97D91A36204D2C4B00A24AC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		97D91A38204D2C4B00A24AC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97D91A3B204D2C4B00A24AC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		97D91A3D204D2C4B00A24AC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97D91A3E204D2C4B00A24AC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		97D91A42204D2C4B00A24AC1 /* TeeWatch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TeeWatch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97D91A48204D2C4B00A24AC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		97D91A4C204D2C4B00A24AC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97D91A51204D2C4B00A24AC1 /* TeeWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "TeeWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97D91A56204D2C4B00A24AC1 /* HomeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeController.h; sourceTree = "<group>"; };
+		97D91A57204D2C4B00A24AC1 /* HomeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeController.m; sourceTree = "<group>"; };
+		97D91A59204D2C4B00A24AC1 /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		97D91A5A204D2C4B00A24AC1 /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		97D91A5C204D2C4B00A24AC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97D91A5E204D2C4B00A24AC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97D91A6C204D2D0900A24AC1 /* MonitorController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MonitorController.h; sourceTree = "<group>"; };
+		97D91A6D204D2D0900A24AC1 /* MonitorController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MonitorController.m; sourceTree = "<group>"; };
+		97D91AD0204D42BC00A24AC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97D91AD3204D49F400A24AC1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		97D91AD5204D4A0200A24AC1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS4.2.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		97D91AD7204D4C5600A24AC1 /* pity.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = pity.caf; path = Sounds/pity.caf; sourceTree = "<group>"; };
+		97D91AD9204D4F2600A24AC1 /* pity.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = pity.caf; path = Sounds/pity.caf; sourceTree = "<group>"; };
+		97D91ADB204D5BE200A24AC1 /* trombone.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = trombone.caf; path = Sounds/trombone.caf; sourceTree = "<group>"; };
+		97D91ADD204D5BE900A24AC1 /* trombone.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = trombone.caf; path = Sounds/trombone.caf; sourceTree = "<group>"; };
+		97D91ADF204D5C1E00A24AC1 /* TeeBaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TeeBaseController.h; sourceTree = "<group>"; };
+		97D91AE0204D5C1E00A24AC1 /* TeeBaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TeeBaseController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97D91A29204D2C4B00A24AC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97D91AD4204D49F400A24AC1 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97D91A4E204D2C4B00A24AC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97D91AD6204D4A0200A24AC1 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97D91A23204D2C4A00A24AC1 = {
+			isa = PBXGroup;
+			children = (
+				97D91A2E204D2C4B00A24AC1 /* TeeWatch */,
+				97D91A46204D2C4B00A24AC1 /* TeeWatch WatchKit App */,
+				97D91A55204D2C4B00A24AC1 /* TeeWatch WatchKit Extension */,
+				97D91A2D204D2C4B00A24AC1 /* Products */,
+				97D91AD2204D49F300A24AC1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		97D91A2D204D2C4B00A24AC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97D91A2C204D2C4B00A24AC1 /* TeeWatch.app */,
+				97D91A42204D2C4B00A24AC1 /* TeeWatch WatchKit App.app */,
+				97D91A51204D2C4B00A24AC1 /* TeeWatch WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97D91A2E204D2C4B00A24AC1 /* TeeWatch */ = {
+			isa = PBXGroup;
+			children = (
+				97D91A2F204D2C4B00A24AC1 /* AppDelegate.h */,
+				97D91A30204D2C4B00A24AC1 /* AppDelegate.m */,
+				97D91A38204D2C4B00A24AC1 /* Assets.xcassets */,
+				97D91A3D204D2C4B00A24AC1 /* Info.plist */,
+				97D91A3A204D2C4B00A24AC1 /* LaunchScreen.storyboard */,
+				97D91A3E204D2C4B00A24AC1 /* main.m */,
+				97D91A35204D2C4B00A24AC1 /* Main.storyboard */,
+				97D91A32204D2C4B00A24AC1 /* ViewController.h */,
+				97D91A33204D2C4B00A24AC1 /* ViewController.m */,
+			);
+			path = TeeWatch;
+			sourceTree = "<group>";
+		};
+		97D91A46204D2C4B00A24AC1 /* TeeWatch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				97D91AD0204D42BC00A24AC1 /* Assets.xcassets */,
+				97D91A4C204D2C4B00A24AC1 /* Info.plist */,
+				97D91A47204D2C4B00A24AC1 /* Interface.storyboard */,
+				97D91AD7204D4C5600A24AC1 /* pity.caf */,
+				97D91ADB204D5BE200A24AC1 /* trombone.caf */,
+			);
+			path = "TeeWatch WatchKit App";
+			sourceTree = "<group>";
+		};
+		97D91A55204D2C4B00A24AC1 /* TeeWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				97D91A5C204D2C4B00A24AC1 /* Assets.xcassets */,
+				97D91A59204D2C4B00A24AC1 /* ExtensionDelegate.h */,
+				97D91A5A204D2C4B00A24AC1 /* ExtensionDelegate.m */,
+				97D91A56204D2C4B00A24AC1 /* HomeController.h */,
+				97D91A57204D2C4B00A24AC1 /* HomeController.m */,
+				97D91A5E204D2C4B00A24AC1 /* Info.plist */,
+				97D91A6C204D2D0900A24AC1 /* MonitorController.h */,
+				97D91A6D204D2D0900A24AC1 /* MonitorController.m */,
+				97D91AD9204D4F2600A24AC1 /* pity.caf */,
+				97D91ADF204D5C1E00A24AC1 /* TeeBaseController.h */,
+				97D91AE0204D5C1E00A24AC1 /* TeeBaseController.m */,
+				97D91ADD204D5BE900A24AC1 /* trombone.caf */,
+			);
+			path = "TeeWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		97D91AD2204D49F300A24AC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97D91AD5204D4A0200A24AC1 /* AVFoundation.framework */,
+				97D91AD3204D49F400A24AC1 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97D91A2B204D2C4B00A24AC1 /* TeeWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97D91A69204D2C4B00A24AC1 /* Build configuration list for PBXNativeTarget "TeeWatch" */;
+			buildPhases = (
+				97D91A28204D2C4B00A24AC1 /* Sources */,
+				97D91A29204D2C4B00A24AC1 /* Frameworks */,
+				97D91A2A204D2C4B00A24AC1 /* Resources */,
+				97D91A68204D2C4B00A24AC1 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97D91A45204D2C4B00A24AC1 /* PBXTargetDependency */,
+			);
+			name = TeeWatch;
+			productName = TeeWatch;
+			productReference = 97D91A2C204D2C4B00A24AC1 /* TeeWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		97D91A41204D2C4B00A24AC1 /* TeeWatch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97D91A65204D2C4B00A24AC1 /* Build configuration list for PBXNativeTarget "TeeWatch WatchKit App" */;
+			buildPhases = (
+				97D91A40204D2C4B00A24AC1 /* Resources */,
+				97D91A64204D2C4B00A24AC1 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97D91A54204D2C4B00A24AC1 /* PBXTargetDependency */,
+			);
+			name = "TeeWatch WatchKit App";
+			productName = "TeeWatch WatchKit App";
+			productReference = 97D91A42204D2C4B00A24AC1 /* TeeWatch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		97D91A50204D2C4B00A24AC1 /* TeeWatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97D91A61204D2C4B00A24AC1 /* Build configuration list for PBXNativeTarget "TeeWatch WatchKit Extension" */;
+			buildPhases = (
+				97D91A4D204D2C4B00A24AC1 /* Sources */,
+				97D91A4E204D2C4B00A24AC1 /* Frameworks */,
+				97D91A4F204D2C4B00A24AC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TeeWatch WatchKit Extension";
+			productName = "TeeWatch WatchKit Extension";
+			productReference = 97D91A51204D2C4B00A24AC1 /* TeeWatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97D91A24204D2C4A00A24AC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "My Company, LLC";
+				TargetAttributes = {
+					97D91A2B204D2C4B00A24AC1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					97D91A41204D2C4B00A24AC1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					97D91A50204D2C4B00A24AC1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 97D91A27204D2C4A00A24AC1 /* Build configuration list for PBXProject "TeeWatch" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97D91A23204D2C4A00A24AC1;
+			productRefGroup = 97D91A2D204D2C4B00A24AC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97D91A2B204D2C4B00A24AC1 /* TeeWatch */,
+				97D91A41204D2C4B00A24AC1 /* TeeWatch WatchKit App */,
+				97D91A50204D2C4B00A24AC1 /* TeeWatch WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97D91A2A204D2C4B00A24AC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97D91A3C204D2C4B00A24AC1 /* LaunchScreen.storyboard in Resources */,
+				97D91A39204D2C4B00A24AC1 /* Assets.xcassets in Resources */,
+				97D91A37204D2C4B00A24AC1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97D91A40204D2C4B00A24AC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97D91AD8204D4C5600A24AC1 /* pity.caf in Resources */,
+				97D91AD1204D42BC00A24AC1 /* Assets.xcassets in Resources */,
+				97D91ADC204D5BE200A24AC1 /* trombone.caf in Resources */,
+				97D91A49204D2C4B00A24AC1 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97D91A4F204D2C4B00A24AC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97D91ADA204D4F2600A24AC1 /* pity.caf in Resources */,
+				97D91A5D204D2C4B00A24AC1 /* Assets.xcassets in Resources */,
+				97D91ADE204D5BE900A24AC1 /* trombone.caf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97D91A28204D2C4B00A24AC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97D91A34204D2C4B00A24AC1 /* ViewController.m in Sources */,
+				97D91A3F204D2C4B00A24AC1 /* main.m in Sources */,
+				97D91A31204D2C4B00A24AC1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97D91A4D204D2C4B00A24AC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97D91A5B204D2C4B00A24AC1 /* ExtensionDelegate.m in Sources */,
+				97D91A6E204D2D0900A24AC1 /* MonitorController.m in Sources */,
+				97D91A58204D2C4B00A24AC1 /* HomeController.m in Sources */,
+				97D91AE1204D5C1E00A24AC1 /* TeeBaseController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		97D91A45204D2C4B00A24AC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97D91A41204D2C4B00A24AC1 /* TeeWatch WatchKit App */;
+			targetProxy = 97D91A44204D2C4B00A24AC1 /* PBXContainerItemProxy */;
+		};
+		97D91A54204D2C4B00A24AC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97D91A50204D2C4B00A24AC1 /* TeeWatch WatchKit Extension */;
+			targetProxy = 97D91A53204D2C4B00A24AC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		97D91A35204D2C4B00A24AC1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97D91A36204D2C4B00A24AC1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		97D91A3A204D2C4B00A24AC1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97D91A3B204D2C4B00A24AC1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		97D91A47204D2C4B00A24AC1 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97D91A48204D2C4B00A24AC1 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		97D91A5F204D2C4B00A24AC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		97D91A60204D2C4B00A24AC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97D91A62204D2C4B00A24AC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M745JHQ43M;
+				INFOPLIST_FILE = "TeeWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.TeeWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Debug;
+		};
+		97D91A63204D2C4B00A24AC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M745JHQ43M;
+				INFOPLIST_FILE = "TeeWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.TeeWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Release;
+		};
+		97D91A66204D2C4B00A24AC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M745JHQ43M;
+				IBSC_MODULE = TeeWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "TeeWatch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.TeeWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Debug;
+		};
+		97D91A67204D2C4B00A24AC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M745JHQ43M;
+				IBSC_MODULE = TeeWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "TeeWatch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.TeeWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Release;
+		};
+		97D91A6A204D2C4B00A24AC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M745JHQ43M;
+				INFOPLIST_FILE = TeeWatch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.TeeWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		97D91A6B204D2C4B00A24AC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M745JHQ43M;
+				INFOPLIST_FILE = TeeWatch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.TeeWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97D91A27204D2C4A00A24AC1 /* Build configuration list for PBXProject "TeeWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97D91A5F204D2C4B00A24AC1 /* Debug */,
+				97D91A60204D2C4B00A24AC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97D91A61204D2C4B00A24AC1 /* Build configuration list for PBXNativeTarget "TeeWatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97D91A62204D2C4B00A24AC1 /* Debug */,
+				97D91A63204D2C4B00A24AC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97D91A65204D2C4B00A24AC1 /* Build configuration list for PBXNativeTarget "TeeWatch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97D91A66204D2C4B00A24AC1 /* Debug */,
+				97D91A67204D2C4B00A24AC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97D91A69204D2C4B00A24AC1 /* Build configuration list for PBXNativeTarget "TeeWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97D91A6A204D2C4B00A24AC1 /* Debug */,
+				97D91A6B204D2C4B00A24AC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97D91A24204D2C4A00A24AC1 /* Project object */;
+}
